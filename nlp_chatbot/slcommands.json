@@ -1,0 +1,259 @@
+{  
+  "intents": [  
+    {  
+      "tag": "greeting",  
+      "patterns": [  
+        "Hello",  
+        "Hi",  
+        "Hey",  
+        "Good day",  
+        "Greetings"  
+      ],  
+      "responses": [  
+        "Hello! How can I assist you with information about Sri Lanka today?",  
+        "Hi there! What would you like to know about Sri Lanka?",  
+        "Greetings! How can I help you learn more about Sri Lanka?"  
+      ]  
+    },  
+    {  
+      "tag": "sri_lanka_overview",  
+      "patterns": [  
+        "Tell me about Sri Lanka",  
+        "What is Sri Lanka?",  
+        "Give me an overview of Sri Lanka",  
+        "Information about Sri Lanka",  
+        "What is the history of Sri Lanka?"  
+      ],  
+      "responses": [  
+        "Sri Lanka is an island country in South Asia, located in the Indian Ocean. It has a rich history dating back over 3,000 years, with evidence of prehistoric human settlements.",  
+        "Sri Lanka, officially known as the Democratic Socialist Republic of Sri Lanka, is known for its diverse culture, languages, and ethnicities. Its history includes periods of Portuguese, Dutch, and British colonial rule.",  
+        "Sri Lanka, formerly known as Ceylon, gained independence from British rule in 1948 and became a republic in 1972. It has a population of approximately 22 million people."  
+      ]  
+    },  
+    {  
+      "tag": "capital_and_cities",  
+      "patterns": [  
+        "What is the capital of Sri Lanka?",  
+        "Tell me about the major cities in Sri Lanka",  
+        "What are some important cities in Sri Lanka?",  
+        "Name the capital city of Sri Lanka",  
+        "Which city is the capital of Sri Lanka?"  
+      ],  
+      "responses": [  
+        "The capital of Sri Lanka is Sri Jayawardenepura Kotte, while Colombo is the largest city and the commercial capital.",  
+        "Sri Jayawardenepura Kotte is the official capital of Sri Lanka, and Colombo is the largest city known for its economic significance.",  
+        "Major cities in Sri Lanka include Colombo, Kandy, Galle, and Jaffna."  
+      ]  
+    },  
+    {  
+      "tag": "official_languages",  
+      "patterns": [  
+        "What are the official languages of Sri Lanka?",  
+        "Tell me about the languages spoken in Sri Lanka",  
+        "Which languages are official in Sri Lanka?",  
+        "What languages do people speak in Sri Lanka?",  
+        "Official language of Sri Lanka"  
+      ],  
+      "responses": [  
+        "The official languages of Sri Lanka are Sinhala and Tamil. English is also widely used for education, scientific, and commercial purposes.",  
+        "Sinhala and Tamil are the official languages in Sri Lanka, with English serving as a link language.",  
+        "Sri Lanka recognizes Sinhala and Tamil as its official languages, while English is commonly used in various sectors."  
+      ]  
+    },  
+      {  
+        "tag": "geography_and_climate",  
+        "patterns": [  
+          "Describe the geography of Sri Lanka",  
+          "What is the climate like in Sri Lanka?",  
+          "Tell me about Sri Lanka's geography",  
+          "What is the weather like in Sri Lanka?",  
+          "Geographical features of Sri Lanka"  
+        ],  
+        "responses": [  
+          "Sri Lanka is an island nation with a diverse geography that includes coastal plains, mountains, and river systems. The highest point is Pidurutalagala at 2,524 meters.",  
+          "The climate in Sri Lanka is tropical, with distinct wet and dry seasons influenced by monsoon winds. The average temperature ranges from 17°C in the central highlands to 33°C in coastal areas.",  
+          "Sri Lanka's geography features a mix of flat coastal plains and mountainous regions. It has 103 rivers and numerous waterfalls, with the Mahaweli River being the longest."  
+        ]  
+      },  
+      {  
+        "tag": "population_and_demographics",  
+        "patterns": [  
+          "What is the population of Sri Lanka?",  
+          "Tell me about the demographics of Sri Lanka",  
+          "How many people live in Sri Lanka?",  
+          "Population details of Sri Lanka",  
+          "Ethnic groups in Sri Lanka"  
+        ],  
+        "responses": [  
+          "Sri Lanka has a population of approximately 22 million people as of 2022. The population density is highest in the Western Province.",  
+          "The major ethnic groups in Sri Lanka are the Sinhalese (74.9%), Sri Lankan Tamils (11.2%), and Moors (9.2%). Other groups include Indian Tamils, Burghers, Malays, and Veddas.",  
+          "Sri Lanka's population is diverse, with the Sinhalese being the largest ethnic group, followed by Sri Lankan Tamils and Moors. The country also has small communities of Burghers, Malays, and indigenous Veddas."  
+        ]  
+      },  
+      {  
+        "tag": "government_and_politics",  
+        "patterns": [  
+          "What type of government does Sri Lanka have?",  
+          "Tell me about the political system of Sri Lanka",  
+          "Who is the current president of Sri Lanka?",  
+          "Political structure of Sri Lanka",  
+          "Government details of Sri Lanka"  
+        ],  
+        "responses": [  
+          "Sri Lanka is a democratic republic with a semi-presidential system. The president is the head of state and government, while the prime minister is the deputy head of government.",  
+          "The current president of Sri Lanka, as of 2024, is Anura Kumara Dissanayake. The political system includes a unicameral parliament with 225 members.",  
+          "Sri Lanka has a unitary state structure with a president who serves as the chief executive, and a prime minister who leads the ruling party in parliament."  
+        ]  
+      },  
+      {  
+        "tag": "economy",  
+        "patterns": [  
+          "Tell me about the economy of Sri Lanka",  
+          "What are the main industries in Sri Lanka?",  
+          "Economic details of Sri Lanka",  
+          "How is the economy of Sri Lanka?",  
+          "Major economic activities in Sri Lanka"  
+        ],  
+        "responses": [  
+          "The economy of Sri Lanka is diverse, with key sectors including agriculture, manufacturing, and services. Major industries include tea, rubber, textiles, and tourism.",  
+          "Sri Lanka is known for its production and export of tea, rubber, and textiles. Tourism also plays a significant role in the country's economy.",  
+          "The economy of Sri Lanka has experienced growth in the past few decades, with significant contributions from the service sector, including tourism and finance."  
+        ]  
+      },
+      {  
+        "tag": "culture_and_religion",  
+        "patterns": [  
+          "Tell me about the culture of Sri Lanka",  
+          "What are the main religions in Sri Lanka?",  
+          "Describe the cultural aspects of Sri Lanka",  
+          "What is the religious composition of Sri Lanka?",  
+          "Cultural and religious details of Sri Lanka"  
+        ],  
+        "responses": [  
+          "Sri Lanka has a rich cultural heritage influenced by Buddhism and Hinduism. Festivals, traditional music, dance, and art are integral parts of the culture.",  
+          "The main religions in Sri Lanka are Buddhism (70.2%), Hinduism (12.6%), Islam (9.7%), and Christianity (7.4%). Buddhism is the largest religion, predominantly practiced by the Sinhalese.",  
+          "Sri Lanka's culture is a blend of various traditions, with significant influences from Buddhist and Hindu practices. Major festivals include Vesak, Sinhala and Tamil New Year, and Diwali."  
+        ]  
+      },  
+      {  
+        "tag": "history",  
+        "patterns": [  
+          "What is the history of Sri Lanka?",  
+          "Tell me about the historical background of Sri Lanka",  
+          "Historical events in Sri Lanka",  
+          "Key historical periods of Sri Lanka",  
+          "History details of Sri Lanka"  
+        ],  
+        "responses": [  
+          "Sri Lanka's history dates back over 3,000 years with evidence of prehistoric human settlements. The island has seen various periods of rule including the Anuradhapura and Polonnaruwa periods.",  
+          "Sri Lanka was colonized by the Portuguese, Dutch, and British before gaining independence in 1948. It became a republic in 1972 and has a rich history of Buddhist influence.",  
+          "The Sri Lankan Civil War between the government and the LTTE lasted from 1983 to 2009. The war ended with the defeat of the LTTE, and the country has since focused on rebuilding and reconciliation."  
+        ]  
+      },  
+      {  
+        "tag": "tourism",  
+        "patterns": [  
+          "What are the top tourist attractions in Sri Lanka?",  
+          "Tell me about tourism in Sri Lanka",  
+          "Places to visit in Sri Lanka",  
+          "Tourist destinations in Sri Lanka",  
+          "What can tourists do in Sri Lanka?"  
+        ],  
+        "responses": [  
+          "Top tourist attractions in Sri Lanka include the ancient cities of Anuradhapura and Polonnaruwa, the rock fortress of Sigiriya, the Temple of the Tooth in Kandy, and the beaches of Galle and Mirissa.",  
+          "Sri Lanka offers diverse experiences for tourists, from exploring ancient ruins and temples to relaxing on beautiful beaches and enjoying wildlife safaris in national parks.",  
+          "Popular activities for tourists in Sri Lanka include visiting historical sites, hiking in the central highlands, experiencing local culture and festivals, and enjoying water sports along the coast."  
+        ]  
+      },  
+      {  
+        "tag": "education",  
+        "patterns": [  
+          "Tell me about the education system in Sri Lanka",  
+          "How is education in Sri Lanka?",  
+          "What are the main universities in Sri Lanka?",  
+          "Education details of Sri Lanka",  
+          "Schooling in Sri Lanka"  
+        ],  
+        "responses": [  
+          "Sri Lanka has a well-established education system with free education from primary to tertiary levels. The literacy rate is over 92%, one of the highest in South Asia.",  
+          "The education system in Sri Lanka is divided into primary, secondary, and tertiary levels. Notable universities include the University of Colombo, University of Peradeniya, and University of Moratuwa.",  
+          "Sri Lanka provides free education to its citizens, which has contributed to high literacy rates. The country has a number of prestigious universities and technical institutes."  
+        ]
+      },
+      {  
+        "tag": "sports",  
+        "patterns": [  
+          "What are the popular sports in Sri Lanka?",  
+          "Tell me about sports in Sri Lanka",  
+          "What sports do Sri Lankans play?",  
+          "Famous athletes from Sri Lanka",  
+          "Sports culture in Sri Lanka"  
+        ],  
+        "responses": [  
+          "Cricket is the most popular sport in Sri Lanka, and the national team has achieved significant success on the international stage. Other popular sports include rugby, football, and volleyball.",  
+          "Sri Lanka has a strong cricket culture, with the national team winning the 1996 Cricket World Cup and the 2014 ICC World Twenty20. Notable cricketers include Muttiah Muralitharan and Kumar Sangakkara.",  
+          "In addition to cricket, sports like rugby, football, netball, and athletics are also popular in Sri Lanka. The country has produced several notable athletes in these sports."  
+        ]  
+      },  
+      {  
+        "tag": "cuisine",  
+        "patterns": [  
+          "Tell me about Sri Lankan cuisine",  
+          "What food is popular in Sri Lanka?",  
+          "Describe the traditional dishes of Sri Lanka",  
+          "What do people eat in Sri Lanka?",  
+          "Sri Lankan food culture"  
+        ],  
+        "responses": [  
+          "Sri Lankan cuisine is known for its use of spices, coconut, and rice. Popular dishes include rice and curry, hoppers, string hoppers, kottu roti, and wattalapam.",  
+          "Traditional Sri Lankan food often features a variety of curries made with vegetables, meat, or fish, served with rice. Coconut milk and spices like cinnamon, cardamom, and cloves are commonly used.",  
+          "Sri Lankan cuisine offers a range of flavors, with popular dishes like dhal curry, fish ambul thiyal (sour fish curry), and desserts like kiribath (milk rice) and kavum (oil cake)."  
+        ]  
+      },  
+      {  
+        "tag": "transportation",  
+        "patterns": [  
+          "How is the transportation system in Sri Lanka?",  
+          "Tell me about public transport in Sri Lanka",  
+          "What are the main modes of transport in Sri Lanka?",  
+          "Transportation details in Sri Lanka",  
+          "How do people travel in Sri Lanka?"  
+        ],  
+        "responses": [  
+          "Sri Lanka has an extensive road network, with buses being the primary mode of public transport. The country also has a railway network and several ports for maritime transport.",  
+          "Public transportation in Sri Lanka includes buses, trains, and tuk-tuks. The railway network connects major cities and tourist destinations, while buses serve both urban and rural areas.",  
+          "Sri Lanka's transportation infrastructure includes well-maintained roads, a reliable railway system, and ports in Colombo, Galle, and Trincomalee. Air travel is facilitated by Bandaranaike International Airport near Colombo."  
+        ]  
+      },  
+      {  
+        "tag": "festivals",  
+        "patterns": [  
+          "What are the main festivals in Sri Lanka?",  
+          "Tell me about the festivals celebrated in Sri Lanka",  
+          "What festivals do Sri Lankans celebrate?",  
+          "Major festivals in Sri Lanka",  
+          "Cultural festivals in Sri Lanka"  
+        ],  
+        "responses": [  
+          "Sri Lanka celebrates a variety of festivals, including Sinhala and Tamil New Year, Vesak, Diwali, and Christmas. Each festival reflects the country's cultural and religious diversity.",  
+          "The Sinhala and Tamil New Year, celebrated in April, marks the traditional new year for the Sinhalese and Tamil communities. Vesak, in May, commemorates the birth, enlightenment, and death of the Buddha.",  
+          "Other major festivals include Diwali, the Hindu festival of lights, and Christmas, celebrated by the Christian community. The Esala Perahera in Kandy is a grand Buddhist festival featuring processions and cultural performances."  
+        ]  
+      },  
+      {  
+        "tag": "wildlife_and_nature",  
+        "patterns": [  
+          "Tell me about the wildlife in Sri Lanka",  
+          "What are the main national parks in Sri Lanka?",  
+          "Wildlife details of Sri Lanka",  
+          "Nature and wildlife in Sri Lanka",  
+          "What animals can be found in Sri Lanka?"  
+        ],  
+        "responses": [  
+          "Sri Lanka is known for its rich biodiversity and is home to many national parks such as Yala, Wilpattu, and Udawalawe. The country is famous for its elephant population, leopards, and diverse bird species.",  
+          "Yala National Park is renowned for its leopard population, while Udawalawe National Park is famous for its elephants. Wilpattu National Park is one of the oldest and largest parks in Sri Lanka.",  
+          "Sri Lanka's wildlife includes a variety of mammals, birds, reptiles, and marine life. Popular species include the Sri Lankan elephant, sloth bear, sambar deer, and a rich array of endemic birds."  
+        ]  
+      } 
+  ]
+}

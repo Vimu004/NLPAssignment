@@ -1,0 +1,4 @@
+Sentiment Distribution:
+Positive: 28
+Negative: 5
+Neutral: 4
